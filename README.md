@@ -1,2 +1,4 @@
 # skin_cancer_fusion
 Faithfulness-Validated Modality Attribution in Image-Metadata Fusion for Skin Cancer Diagnosis
+When doctors (or AI models) diagnose skin cancer, they look at two kinds of information: the lesion photo, and patient details like age, itching, bleeding, and family history. Many research papers build AI models that combine both — but when they explain "which one mattered more for this decision," they only use one explanation method and just trust it, without checking if that method is actually correct.
+This project builds such a model, but instead of trusting one explanation method, it uses four different methods and checks whether they agree with each other. Where they disagree, we dig into why — and what that disagreement means for real diagnosis. That comparison is the actual contribution of the paper, not just building another fusion model.
